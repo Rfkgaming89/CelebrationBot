@@ -27,20 +27,36 @@ git clone https://github.com/yourusername/CelebrationBot.git
 cd CelebrationBot
 ```
 
-2.Step 1: Set the Environment Variable
+Instructions for Setting Up the .config File
+
 On Windows
 
-Open Command Prompt and set the environment variable:
+Open Notepad or another text editor.
+Paste the following content:
 ```
-set DISCORD_BOT_TOKEN=your_discord_bot_token
+[DISCORD]
+TOKEN=your_discord_bot_token
+GUILD_ID=your_guild_id
+BIRTHDAY_CHANNEL_ID=your_channel_id
 ```
-On macOS/Linux
 
-Open Terminal and set the environment variable:
+On MacOS/Linux
+
+Create a config.ini File:
+
+Open Terminal.
+Use a text editor such as nano to create the config.ini file:
 
 ``` 
-export DISCORD_BOT_TOKEN=your_discord_bot_token
+nano config.ini
 ```
+```
+[DISCORD]
+TOKEN=your_discord_bot_token
+GUILD_ID=your_guild_id
+BIRTHDAY_CHANNEL_ID=your_channel_id
+```
+Save the file (for nano, press CTRL+X, then Y, then Enter).
 
 
 3. Install the required dependencies:
@@ -48,14 +64,6 @@ export DISCORD_BOT_TOKEN=your_discord_bot_token
 ```
 pip install -r requirements.txt
 ```
-4. Create a config.ini file in the project directory with the following content:
-```
-[DISCORD]
-TOKEN=your_discord_bot_token
-GUILD_ID=your_guild_id
-BIRTHDAY_CHANNEL_ID=your_channel_id
-```
-Replace your_discord_bot_token, your_guild_id, and your_channel_id with the appropriate values.
 
 Running the Bot
 
