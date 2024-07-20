@@ -27,12 +27,19 @@ git clone https://github.com/yourusername/CelebrationBot.git
 cd CelebrationBot
 ```
 
-2. Create and activate a virtual environment (optional but recommended):
+2.Step 1: Set the Environment Variable
+On Windows
 
+Open Command Prompt and set the environment variable:
 ```
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+set DISCORD_BOT_TOKEN=your_discord_bot_token
 ```
+On macOS/Linux
+
+Open Terminal and set the environment variable:
+
+``` export DISCORD_BOT_TOKEN=your_discord_bot_token ```
+
 
 3. Install the required dependencies:
 
