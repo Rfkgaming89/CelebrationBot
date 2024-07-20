@@ -38,7 +38,9 @@ On macOS/Linux
 
 Open Terminal and set the environment variable:
 
-``` export DISCORD_BOT_TOKEN=your_discord_bot_token ```
+``` 
+export DISCORD_BOT_TOKEN=your_discord_bot_token
+```
 
 
 3. Install the required dependencies:
