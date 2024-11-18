@@ -20,7 +20,7 @@
 
 1. **Clone the Repository:**
 
-   ``` git clone https://github.com/yourusername/CelebrationBot.git ```
+   ``` git clone https://github.com/rfkgaming89/CelebrationBot.git ```
 
    ``` cd CelebrationBot``` 
    
